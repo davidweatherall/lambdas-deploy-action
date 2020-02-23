@@ -1,0 +1,9 @@
+name: "Lambdas Deploy Action"
+description: "Deploy a lambda to AWS and bump the version"
+author: davidweatherall
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: trending-up
+  color: green
